@@ -19,8 +19,7 @@
 .secondary-font-style {
     font-family: 'Inter', sans-serif;
     font-size: calc( 22 / 16 * 1rem);
-    /* color: rgba(0, 0, 0, 0.4); */
-    color: #8987A1;
+    color: rgba(0, 0, 0, 0.4);
 }
 /* Primary Basic Design End */
 
@@ -101,7 +100,67 @@
 /* Header Banner End */
 
 /* Flower Product Card */
-
+.flower-card-section {
+    max-width: calc(100% - 150px);
+    margin: 120px auto;
+}
+.flower-card-heading {
+    text-align: center;
+}
+.flower-card-heading h1 {
+    font-family: var(--font-family-primary);
+    font-size: calc(50 / 16 * 1rem);
+    font-weight: 700;
+    color: black;
+}
+.flower-card-heading h1 span {
+    color: #E95A08;
+}
+.flower-card-heading p {
+    font-size: calc(22 / 16 * 1rem); 
+    color: rgba(0, 0, 0, 0.4);
+    max-width: calc(100% - (150px + 160px));
+    margin: 16px auto;
+}
+.flower-cards-column {
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    justify-items: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.flower-card {
+    max-width: 270px;
+}
+.flower-cards-column img {
+    max-width: 100%;
+}
+.flower-cards-column h3, .flower-cards-column h4 {
+    font-family: var(--font-family-secondary);
+    font-size: calc(22 / 16 * 1rem);
+    text-align: center;
+}
+.flower-cards-column h3 {
+    margin-top: 30px;
+    font-weight: 500;
+}
+.flower-cards-column h4 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+.flower-cards-column button {
+    font-family: var(--font-family-secondary);
+    color: white;
+    margin-top: 30px;
+    padding: 15px 80px;
+    width: 100%;
+    background-color: #E95A08;
+    border: none;
+    font-weight: 600;
+    font-size: calc(16 / 16 * 1rem);
+}
 /* Flower Product End */
 
 
