@@ -6,7 +6,7 @@
 
 /* Primary Basic Design Start */
 :root {
-    --font-family-primary: 'Noto', serif;
+    --font-family-primary: 'Noto Serif', serif;
     --font-family-secondary: 'Inter', sans-serif;
 }
 
@@ -33,8 +33,8 @@
     align-items: center;
     margin: 30px auto;
 }
-.navbar-column1 {
-    max-width: 100%;
+.navbar-menus {
+    max-width: 420px;
 }
 .navbar-menus ul{
     display: flex;
@@ -64,6 +64,39 @@
 }
 /* Navbar Design End */
 
+/* Header Banner Start */
+.header-banner {
+    max-width: calc(100% - 150px);
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header-banner-column1 {
+    width: calc(100% - 150px - 50%);
+    height: auto;
+}
+.header-banner-column1 h1 {
+    font-family: var(--font-family-primary);
+    font-size: calc(65 / 16 * 1rem);
+    font-weight: 700;
+    color: black;
+}
+.header-banner-column1 span {
+    color: #E95A08;
+}
+.header-banner p {
+    margin-top: 13px;
+    text-align: left;
+}
+ .header-banner-column2 {
+    width: calc(100% - 150px - 50%);
+ }
+ .header-banner-column2 img {
+    max-width: 100%;
+ }    
+/* Header Banner End */
+
 
 
 
@@ -80,14 +113,39 @@
         gap: 0px;
         max-width: calc( 100% - 20px);
         padding: 0px 20px;
+        white-space: nowrap;
     }
     .navbar-menus {
         white-space: nowrap;
-        
     }
     .navbar-primary img {
         width: 60px;
     }
+
+    /* Header Banner Responsiveness Start */
+    .header-banner {
+        flex-direction: column;
+        max-width: calc(100% - 20px);
+    }
+    .header-banner-column1 img {
+        width: 100%;
+    }
+    .header-banner-column1 h1 {
+        font-size: calc(24 / 16 * 1rem);
+    }
+    .header-banner :nth-child(1) {
+        order: 2;
+    }
+    .header-banner-column2, .header-banner-column1 {
+        width: calc(100% - 20px);
+    }
+    .header-banner-column1 {
+        margin-top: 28px;
+    }
+    .header-banner-column1 p {
+        margin-top: 13px; 
+    }
+    /* Header Banner Responsiveness End */
 
 }
 /* Responsive Section End */
