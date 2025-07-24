@@ -224,6 +224,18 @@
     .flower-card {
         max-width: 170px;
     }
+    .flower-card-heading h1 {
+        font-size: calc(24 / 16 * 1rem);
+    }
+    .flower-card-heading p {
+        font-size: calc(14 / 16 * 1rem);
+    }
+    .flower-card-section p {
+    max-width: calc(100% - 20px);
+    }
+    .flower-card-section {
+        max-width: calc(100% - 20px);
+    }
     /* Flower Product Cards Responsiveness End */
 }
 /* Responsive Section End */
