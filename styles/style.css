@@ -33,9 +33,14 @@
     align-items: center;
     margin: 30px auto;
 }
+.navbar-column1 {
+    max-width: 100%;
+}
 .navbar-menus ul{
     display: flex;
     gap: calc( 48 / 16 * 1rem);
+    justify-content: center;
+    align-items: center;
 }
 .navbar-menus ul li {
     list-style: none;
@@ -58,3 +63,31 @@
     margin-right: 10px;
 }
 /* Navbar Design End */
+
+
+
+
+
+/* Responsive Section Start */
+@media screen and (max-width: 576px) {
+    
+    /* Navbar Responsiveness Start */ 
+    .responsive-hide {
+        display: none;
+    } 
+    .navbar-primary {
+        min-width: 0;
+        gap: 0px;
+        max-width: calc( 100% - 20px);
+        padding: 0px 20px;
+    }
+    .navbar-menus {
+        white-space: nowrap;
+        
+    }
+    .navbar-primary img {
+        width: 60px;
+    }
+
+}
+/* Responsive Section End */
