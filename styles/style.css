@@ -123,10 +123,13 @@
     margin: 16px auto;
 }
 .flower-cards-column {
-    margin-top: 49px;
+    /* max-width: calc(100% - 150px); */
+    /* width: 100%; */
+    margin: 49px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; 
+    justify-content: space-between;
     justify-items: center;
     align-items: center;
     row-gap: 30px;
@@ -154,12 +157,13 @@
     font-family: var(--font-family-secondary);
     color: white;
     margin-top: 30px;
-    padding: 15px 80px;
+    padding: 1em 1em;
     width: 100%;
     background-color: #E95A08;
     border: none;
     font-weight: 600;
-    font-size: calc(16 / 16 * 1rem);
+    font-size: 1em;
+    cursor: pointer;
 }
 /* Flower Product End */
 
@@ -212,5 +216,14 @@
         margin-top: 14px; 
     }
     /* Header Banner Responsiveness End */
+
+    /* Flower Product Cards Responsiveness Start */
+    .flower-cards-column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .flower-card {
+        max-width: 170px;
+    }
+    /* Flower Product Cards Responsiveness End */
 }
 /* Responsive Section End */
