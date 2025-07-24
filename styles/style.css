@@ -73,7 +73,7 @@
     align-items: flex-end;
 }
 .header-banner-column1 {
-    width: calc(100% - 150px - 50%);
+    width: calc(100% - 150px - 40%);
     height: auto;
 }
 .header-banner-column1 h1 {
@@ -99,6 +99,10 @@
 
  }    
 /* Header Banner End */
+
+/* Flower Product Card */
+
+/* Flower Product End */
 
 
 
@@ -149,6 +153,5 @@
         margin-top: 14px; 
     }
     /* Header Banner Responsiveness End */
-
 }
 /* Responsive Section End */
