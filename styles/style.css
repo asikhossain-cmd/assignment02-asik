@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Primary Basic Design Start */
+:root {
+    --font-family-primary: 'Noto', serif;
+    --font-family-secondary: 'Inter', sans-serif;
+}
+
+.primary-button-style {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    background-color: #E95A08;
+}
+.secondary-font-style {
+    font-family: 'Inter', sans-serif;
+    font-size: calc( 22 / 16 * 1rem);
+    /* color: rgba(0, 0, 0, 0.4); */
+    color: #8987A1;
+}
+/* Primary Basic Design End */
+
+/* Navbar Design Start */
+.navbar-primary {
+    max-width: calc( 100% - 150px);
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+.navbar-menus ul{
+    display: flex;
+    gap: calc( 48 / 16 * 1rem);
+}
+.navbar-menus ul li {
+    list-style: none;
+}
+.navbar-menus ul li a {
+    text-decoration: none;
+    font-family: var(--font-family-secondary);
+    font-size: 1rem;
+
+}
+.navbar-menus ul li a span {
+    color: #252432;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.cart-style {
+    color: #252432;
+}
+.cart-style i {
+    margin-right: 10px;
+}
+/* Navbar Design End */
