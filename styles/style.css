@@ -91,9 +91,12 @@
 }
  .header-banner-column2 {
     width: calc(100% - 150px - 50%);
+    display: flex;
+    justify-content: flex-end;
  }
  .header-banner-column2 img {
     max-width: 100%;
+
  }    
 /* Header Banner End */
 
@@ -143,7 +146,7 @@
         margin-top: 28px;
     }
     .header-banner-column1 p {
-        margin-top: 13px; 
+        margin-top: 14px; 
     }
     /* Header Banner Responsiveness End */
 
