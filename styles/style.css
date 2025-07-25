@@ -495,7 +495,7 @@ body {
         white-space: nowrap;
     }
     .navbar-primary img {
-        width: 60px;
+        width: 65px;
     }
 
     /* Header Banner Responsiveness Start */
@@ -530,6 +530,12 @@ body {
     .flower-card {
         max-width: 170px;
     }
+    .flower-card h3, .flower-card h4 {
+        font-size: calc(20 / 16 * 1rem);
+    }
+    .flower-card button{
+        font-size: 0.8em;
+    }
     .flower-card-heading h1 {
         font-size: calc(24 / 16 * 1rem);
     }
@@ -537,7 +543,7 @@ body {
         font-size: calc(14 / 16 * 1rem);
     }
     .flower-card-section p {
-    max-width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
     }
     .flower-card-section {
         max-width: calc(100% - 20px);
