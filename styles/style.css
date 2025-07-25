@@ -374,13 +374,70 @@
 }
 /* Latest Deals Section End */
 
+/* Join the Colourful Bunch Section Deign Start */
+.join-the-colourful-section {
+    max-width: 100%;
+    height: 534px;
+    margin: 15px auto;
+    text-align: center;
+    position: relative;
+}
+.bg-photo-join-the-colourful {
+    background: url('../assets/news-letter-bg.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.input-field-button {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+}
+.input-field-button input {
+    padding: 15.5px 540px 15.5px 20px;
+    border: none;
+}
+.input-field-button button {
+    padding: 19px 53.5px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    font-family: var(--font-family-secondary);
+    font-size: calc(16 / 16 * 1rem);
+    font-weight: 600;
+    cursor: pointer;
+}
+.input-field-button input[type="email"] {
+    font-size: calc(16 / 16 * 1rem);
+}
+.input-field-button::placeholder {
+    font-family: var(--font-family-secondary);
+    font-size: calc(16 / 16 * 1rem);
+}
+.join-the-colourful-section h1 {
+    font-family: var(--font-family-primary);
+    font-size: calc(50 / 16 * 1rem);
+    font-weight: 700;
+    color: white;
+    top: 41%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+/* Join the Colourful Bunch Section Deign End */
+
+
 
 
 
 
 
 /* Responsive Section Start */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 576px) {
     
     /* Navbar Responsiveness Start */ 
     .responsive-hide {
@@ -480,6 +537,7 @@
     /* Latest Deals Responsiveness Start */
     .latest-deals-section {
         max-width: calc(100% - 20px);
+        margin-bottom: 10px;
     }
     .images-collages-columns {
         margin-top: 50px;
@@ -510,6 +568,26 @@
     } */
 
     /* Latest Deals Responsiveness End */
+
+    /* Joing The Colourful Bucnch Responsiveness Start */
+    .join-the-colourful-section {
+        height: 276px;
+        margin-top: 44.5px;
+    }
+    .bg-photo-join-the-colourful {
+        background-size: cover;
+    }
+    
+    .join-the-colourful-section h1 {
+        font-size: calc(15 / 16 * 1rem);
+    }
+    .input-field-button input {
+        padding: 15.5px 10px 15.5px 10px;
+    }
+    .input-field-button button {
+        padding: 19px 12px;
+    }
+    /* Joing The Colourful Bucnch Responsiveness End */
 }
 /* Responsive Section End */
 
