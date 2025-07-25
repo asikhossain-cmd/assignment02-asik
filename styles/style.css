@@ -380,7 +380,7 @@
 
 
 /* Responsive Section Start */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
     
     /* Navbar Responsiveness Start */ 
     .responsive-hide {
