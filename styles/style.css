@@ -284,6 +284,37 @@
         max-width: calc(100% - 20px);
     }
     /* Flower Product Cards Responsiveness End */
+
+    /* Flower & Plant Lover Section Design Start */
+    .flower-plant-section {
+        max-width: calc(100% - 20px);
+    }
+    .flower-plant-lover-columns {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .flower-plant-column1 img {
+        display: none;
+    }
+    .flower-plant-column1 {
+        background-size: contain;
+        max-width: 100%;
+        height: 433px;
+    }
+    .flower-plant-column2 {
+        width: 100%;
+    }
+    .flower-plant-column2 h1 {
+        font-size: calc(24 / 16 * 1rem);
+    }
+    .flower-plant-column2 h1 br {
+        display: none;
+    }
+    .flower-plant-column2 ul li {
+        font-size: calc(14 / 16 * 1rem);
+        margin-left: 25px;
+    }
+    /* Flower & Plant Lover Section Design End */
 }
 /* Responsive Section End */
 
