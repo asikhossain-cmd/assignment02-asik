@@ -167,6 +167,50 @@
 }
 /* Flower Product End */
 
+/* FLower Plant Lover Section Design Start */
+.flower-plant-section {
+    max-width: calc(100% - 150px);
+    height: auto;
+    margin: 0 auto;
+}
+.flower-plant-lover-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    text-align: left; 
+}
+.flower-plant-column1 {
+    width: 41em;
+    height: 600px;
+    background-image: url('../assets/flower-store.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.flower-plant-column1 img {
+    width: 20em; 
+    position: absolute;
+    top: -24%;
+    right: -18%;
+    filter: drop-shadow(-1px 9px 4px rgba(0,0,0,0.5));
+}
+.flower-plant-column2 {
+    width: 50%;
+    /* height: 600px; */
+}
+.flower-plant-column2 h1 {
+    font-family: var(--font-family-primary);
+    font-size: calc(50 / 16 * 1rem);
+    font-weight: 700;
+    color: black;
+}
+.flower-plant-column2 ul li {
+    margin: 20px 30px;
+}
+/* FLower Plant Lover Section Design End */
+
+
 
 
 
