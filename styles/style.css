@@ -476,6 +476,40 @@
         margin-left: 25px;
     }
     /* Flower & Plant Lover Section Design End */
+
+    /* Latest Deals Responsiveness Start */
+    .latest-deals-section {
+        max-width: calc(100% - 20px);
+    }
+    .images-collages-columns {
+        margin-top: 50px;
+        height: 581px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "bloom"
+        "ana"
+        "zabo";
+        height: 700px;
+    }
+    .latest-deals-heading-des h1 {
+        font-size: calc(24 / 16 * 1rem);
+    }
+    .latest-deals-heading-des p {
+        font-size: calc(14 / 16 * 1rem);
+    }
+    .heading-and-button-ana, .heading-and-button-bloom, .heading-and-button-zabo {
+        font-size: calc(9.5 / 16 * 1rem);
+        width: 214px;
+    }
+    .heading-and-button-bloom button, .heading-and-button-ana button, .heading-and-button-zabo button {
+        font-size: calc(14 / 16 * 1rem);
+    }
+    /* .zabo-plant-column {
+        width: 100px;
+    } */
+
+    /* Latest Deals Responsiveness End */
 }
 /* Responsive Section End */
 
