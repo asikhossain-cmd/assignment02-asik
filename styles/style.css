@@ -208,6 +208,9 @@
 .flower-plant-column2 ul li {
     margin: 20px 30px;
 }
+.flower-plant-column1 img {
+    animation: infinite-rotate 15s linear infinite;
+}
 /* FLower Plant Lover Section Design End */
 
 
@@ -283,3 +286,11 @@
     /* Flower Product Cards Responsiveness End */
 }
 /* Responsive Section End */
+
+
+/* Keyframe for Infinite Badge Rotate Animation Start */
+@keyframes infinite-rotate {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+/* Keyframe for Infinite Badge Rotate Animation End */
